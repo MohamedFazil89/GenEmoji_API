@@ -1,0 +1,52 @@
+# Python bytecode
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Virtual environment
+venv/
+env/
+.venv/
+ENV/
+*.egg-info/
+
+# Flask cache/logs
+instance/
+*.db
+*.sqlite3
+*.log
+
+# Environment variables
+.env
+.env.*
+
+# VSCode settings
+.vscode/
+*.code-workspace
+
+# OS-specific
+.DS_Store
+Thumbs.db
+
+# pipenv/poetry
+Pipfile.lock
+poetry.lock
+
+# Pytest cache
+.pytest_cache/
+.cache/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Coverage reports
+htmlcov/
+coverage.xml
+*.cover
+
+# Mac-specific
+*.DS_Store
+
+# Windows-specific
+ehthumbs.db
+Icon?
