@@ -1,1 +1,1 @@
-web: python3 emoji_server.py
+echo web: gunicorn emoji_server:app > Procfile
